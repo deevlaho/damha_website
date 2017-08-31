@@ -1,0 +1,160 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: darkblue
+}
+
+
+/* navbar */
+
+.navbar-custom {
+    background-color: #000000;
+    border-color: #000000;
+    margin-bottom: 0px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: darkcyan
+}
+
+h2 {
+    color: darkslategray;
+    font-family: "Book Antiqua", Palatino, serif;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+h3 {
+    color: darkslategray;
+    font-family: "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-weight: large;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+h4 {
+ color: darkslategray;
+    font-family: "Book Antiqua", Palatino, serif;
+    font-weight: large;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+h5 {
+    color: darkslategray;
+    font-family: "Book Antiqua", Palatino, serif;
+    font-size: medium;
+    font-weight: normal;
+    text-align: left;
+}
+
+figcaption {
+    color: slategray;
+    font-style: italic;
+    text-align: bottom;
+}
+
+#mainpic {
+    padding-top: 0px;
+    padding-bottom: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    align: center;
+}
+
+#damha-photo {
+    padding-bottom: 0.8em;
+}
+
+/*RESEARCH OVERLAY IMAGES*/
+
+.research_themes {
+  position: relative;
+  width: 50%;
+}
+
+.research_theme_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research_overlay {
+  position: absolute;
+    padding:10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.research_themes:hover .research_overlay {
+  opacity: 1;
+}
+
+.research_overlay_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.research_image {
+    width:100%;
+}
+
+a.anchor{
+    display: block; 
+    position:relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+/*END OF RESEARCH OVERLAY IMAGES*/
+
+
+/*GROUP MEMBERS PAGE*/
+
+#member-cards {
+    text-align: center;
+    padding: 20px;
+}
+
+#alumni-leftcol {
+    text-align: right;
+    font-size: x-large;
+    color: darkcyan;
+    font-family: "Book Antiqua", Palatino, serif;
+}
+
+/*END OF GROUP MEMBERS PAGE*/
+
+footer {
+    font-style: italic;
+    background-color: azure;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
