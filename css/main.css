@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins|Raleway|Lora|Montserrat|Source+Serif+Pro');
+
+
 body {
-    padding-top: 5rem;
+    padding-top: 3rem;
+    font-family: "Raleway", sans-serif;
 }
 
 .starter-template {
@@ -8,18 +12,22 @@ body {
     color: darkblue
 }
 
-
-/* navbar */
-
-.navbar-custom {
-    background-color: #000000;
-    border-color: #000000;
-    margin-bottom: 0px;
+.navbar-default {
+    background-color: black;
+    border-color: black;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0px !important;
 }
 
 #banner {
     width: 100%;
     height: auto;
+}
+
+#splash {
+    width: auto;
+    height: auto;
+    margin-top: 0px !important;
 }
 
 h1 {
@@ -47,7 +55,7 @@ h3 {
 
 h4 {
  color: darkslategray;
-    font-family: "Book Antiqua", Palatino, serif;
+    font-family: "Libre Baskerville", serif;
     font-weight: large;
     text-align: left;
     padding-top: 20px;
@@ -55,7 +63,7 @@ h4 {
 }
 h5 {
     color: darkslategray;
-    font-family: "Book Antiqua", Palatino, serif;
+    font-family: "Libre Baskerville", serif;
     font-size: medium;
     font-weight: normal;
     text-align: left;
@@ -152,7 +160,8 @@ a.anchor{
 /*END OF GROUP MEMBERS PAGE*/
 
 footer {
-    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
     background-color: azure;
     padding-bottom: 20px;
     text-align: center;
