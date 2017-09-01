@@ -12,11 +12,32 @@ body {
     color: darkblue
 }
 
+/* NAVBAR */
+
 .navbar-default {
     background-color: black;
     border-color: black;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 0px !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #banner {
@@ -31,26 +52,28 @@ body {
 }
 
 h1 {
-    color: darkcyan
+    color: cyan
+    font-weight: bold;  
 }
 
 h2 {
-    color: darkslategray;
-    font-family: "Book Antiqua", Palatino, serif;
-    font-weight: normal;
+    color: slategray;
+    font-family: "Montserrat", sans-serif;
+    font-size:  xx-large;
+    /*font-weight: bold;*/
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 h3 {
     color: darkslategray;
     font-family: "Book Antiqua", Palatino, serif;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: large;
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h4 {
@@ -76,7 +99,7 @@ figcaption {
 }
 
 #mainpic {
-    padding-top: 0px;
+    padding-top: 0.8em;
     padding-bottom: 0.8em;
     margin-left: 0px;
     margin-right: 0px;
@@ -84,11 +107,15 @@ figcaption {
     align: center;
 }
 
+.h-space {
+    padding-top: 2em;
+}
+
 #damha-photo {
     padding-bottom: 0.8em;
 }
 
-/*RESEARCH OVERLAY IMAGES*/
+/*RESEARCH*/
 
 .research_themes {
   position: relative;
@@ -96,37 +123,39 @@ figcaption {
 }
 
 .research_theme_image {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .research_overlay {
-  position: absolute;
+    position: absolute;
     padding:10px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0,0,0,0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .research_themes:hover .research_overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .research_overlay_text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .research_image {
@@ -140,7 +169,7 @@ a.anchor{
     visibility: hidden;
 }
 
-/*END OF RESEARCH OVERLAY IMAGES*/
+/*END OF RESEARCH PAGE*/
 
 
 /*GROUP MEMBERS PAGE*/
@@ -153,7 +182,7 @@ a.anchor{
 #alumni-leftcol {
     text-align: right;
     font-size: x-large;
-    color: darkcyan;
+    color: darkslategray;
     font-family: "Book Antiqua", Palatino, serif;
 }
 
