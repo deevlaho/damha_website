@@ -171,6 +171,18 @@ a.anchor{
 
 /*END OF RESEARCH PAGE*/
 
+/*PUBLICATIONS*/
+
+ol.pubsList {
+}
+
+li.pubsEntry {
+    margin-bottom: 10px;
+    padding-left: 1em;
+}
+
+/*END OF PUBLICATIONS*/
+
 
 /*GROUP MEMBERS PAGE*/
 
