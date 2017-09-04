@@ -95,6 +95,10 @@ h5 {
     text-align: left;
 }
 
+.centred {
+    text-align: center
+}
+
 figcaption {
     color: slategray;
     font-style: italic;
@@ -203,6 +207,24 @@ li.pubsEntry {
 }
 
 /*END OF GROUP MEMBERS PAGE*/
+
+/*LATEST RESEARCH PAGE*/
+
+.blog-image {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 12em;
+    padding-bottom: 1em;
+}
+
+/*PHOTO SLIDESHOWS*/
+
+.slideshow {
+    height: 25em;
+    display: block;
+    margin: auto;
+}
 
 footer {
     font-family: "Montserrat", sans-serif;
