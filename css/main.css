@@ -12,6 +12,15 @@ body {
     color: darkblue
 }
 
+/*CUSTOM SETTINGS FOR NON-MOBILE SCREENS*/
+
+@media screen and (min-width: 480px){
+    .twitter {
+        max-width: 700px; 
+        margin: auto;
+    }
+}
+
 /* NAVBAR */
 
 .navbar-default {
@@ -218,12 +227,25 @@ li.pubsEntry {
     padding-bottom: 1em;
 }
 
+/*NEWS*/
+
+.twitter {
+    width: 100%;
+}
+
 /*PHOTO SLIDESHOWS*/
 
 .slideshow {
     height: 25em;
     display: block;
     margin: auto;
+}
+
+/*CONTACT*/
+
+#map {
+   height: 400px;
+    width=100%;
 }
 
 footer {
